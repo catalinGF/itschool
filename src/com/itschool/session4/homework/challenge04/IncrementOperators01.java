@@ -1,6 +1,6 @@
-package com.itschool.session4.homework.ex1;
+package com.itschool.session4.homework.challenge04;
 
-public class IncementOperators {
+public class IncrementOperators01 {
 
     public static void main(String[] args) {
         // initialize a variable
@@ -13,3 +13,5 @@ public class IncementOperators {
 
     }
 }
+
+
