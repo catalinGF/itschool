@@ -5,13 +5,11 @@ public class LogicalOperators {
 
     public static void main(String[] args) {
         //creaza un nou obiect  Scanner
-        Scanner obiecScaner = new Scanner(System.in);
-
+        Scanner obiectScaner = new Scanner(System.in);
 
         // Prompt pentru introducere numar
         System.out.println("Introduceti primul numar");
-        int numar1 = obiecScaner.nextInt();
-
+        int numar1 = obiectScaner.nextInt();
         boolean isPositive = !(numar1<0);
 
         if(isPositive){
@@ -19,7 +17,6 @@ public class LogicalOperators {
         } else{
             System.out.println("Numarul este negativ");
         }
-
-        obiecScaner.close();
+        obiectScaner.close();
     }
 }

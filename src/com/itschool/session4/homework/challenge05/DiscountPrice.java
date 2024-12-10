@@ -11,7 +11,7 @@ public class DiscountPrice {
         System.out.println("Enter the original price");
         double price = scanner.nextDouble();
 
-    //enter the discount
+        //enter the discount
         System.out.println("Enter the discount percentage");
         double discount = scanner.nextDouble();
 
@@ -22,5 +22,4 @@ public class DiscountPrice {
         //display result
         System.out.println("Price after discount is " + price);
     }
-
 }

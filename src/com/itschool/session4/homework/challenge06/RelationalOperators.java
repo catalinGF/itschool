@@ -10,8 +10,7 @@ public class RelationalOperators {
         //enter number 1
         System.out.println("Enter number 1:");
         int number1 = scanner.nextInt();
-
-
+        //enter number 2
         System.out.println("Enter number 2:");
         int number2 = scanner.nextInt();
 
@@ -26,7 +25,5 @@ public class RelationalOperators {
         }else{
             System.out.println("Numarul este in afara intervalului");
         }
-
-
     }
 }

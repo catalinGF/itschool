@@ -10,7 +10,6 @@ public class IncrementOperators01 {
         // Afiseaza valoarile
         System.out.println("x is" + x);
         System.out.println("y is" + y);
-
     }
 }
 
