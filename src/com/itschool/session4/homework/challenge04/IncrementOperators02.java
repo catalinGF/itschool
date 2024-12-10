@@ -9,6 +9,5 @@ public class IncrementOperators02 {
             //Afiseaza rezultat
             System.out.println("x este" + x);
             System.out.println("y este" + y);
-
     }
 }

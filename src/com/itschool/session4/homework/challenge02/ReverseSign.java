@@ -12,11 +12,7 @@ public class ReverseSign {
         int numar1 = scanner.nextInt();
 
         //Afiseaza numarul cu minus
-
         int semnMinus = -numar1;
         System.out.println("Numarul negativ este:"+ semnMinus);
-
-
-
     }
 }
