@@ -1,12 +1,18 @@
 package com.itschool.session6.homework.challenge15;
 
+import java.util.Scanner;
+
 public class Challenge15 {
     public static void main(String[] args) {
         authDemo();
     }
+
     static void authDemo() {
-        boolean hasUsername = true;
-        boolean hasPassword = false;
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("User exists? ");
+        boolean hasUsername = scanner.nextBoolean();
+        System.out.println("Password exists?");
+        boolean hasPassword = scanner.nextBoolean();
 
         //check authentication conditions
         if (hasPassword && hasUsername) {

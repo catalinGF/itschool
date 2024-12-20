@@ -8,7 +8,11 @@ public class Challenge01 {
 
         System.out.println("String one is:" + stringOne);
         System.out.println("String one is:" + stringTwo);
+        if (stringOne == stringTwo) {
+            System.out.println("The strings are equal");
+        } else {
+            System.out.println("Strings are different");
+        }
     }
-
 }
 

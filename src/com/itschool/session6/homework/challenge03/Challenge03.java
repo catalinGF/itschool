@@ -3,13 +3,12 @@ package com.itschool.session6.homework.challenge03;
 import java.util.Scanner;
 
 public class Challenge03 {
-
     public static void main(String[] args) {
         checkAge();
-
     }
-    static void checkAge(){
-        Scanner scanner =  new Scanner(System.in);
+
+    static void checkAge() {
+        Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter your age:");
         int age = scanner.nextInt();
