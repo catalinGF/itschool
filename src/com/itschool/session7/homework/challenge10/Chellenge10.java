@@ -39,7 +39,7 @@ public class Chellenge10 {
                     return;
                 default:
                     System.out.println("Invalid choice. Please try again.");
-                    continue; // Go back to the menu
+
             }
         }
     }
