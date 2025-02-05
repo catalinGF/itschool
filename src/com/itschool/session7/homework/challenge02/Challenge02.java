@@ -63,7 +63,7 @@ public class Challenge02 {
         System.out.println("Enter the number of the month");
         int monthNumber = scanner.nextInt();
         if (monthNumber >= 1 && monthNumber <= 12) {
-            System.out.println("The selected number is " + months[monthNumber - 1]);
+            System.out.println("The selected month is " + months[monthNumber - 1]);
         } else {
             System.out.println("The month is invalid");
         }

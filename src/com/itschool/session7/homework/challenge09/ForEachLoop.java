@@ -9,7 +9,7 @@ public class ForEachLoop {
     }
 
     static void forEachLoop() {
-        int numbers[] = {10, 15, 25, 34, 56, 57, 98, 103};
+        int[] numbers = {10, 15, 25, 34, 56, 57, 98, 103};
         for (int number : numbers) {
             if (number % 2 == 0) {
                 System.out.println(number + " Even");
