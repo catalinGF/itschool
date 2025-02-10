@@ -1,7 +1,8 @@
 package com.itschool.session14.multilevelinheritance;
 
 public class Car {
-    protected String make, model;
+    private final String make;
+    private final String model;
     protected int year;
 
     public Car(String make, String model, int year) {
@@ -22,4 +23,19 @@ public class Car {
         System.out.println("Car is accelerating...");
     }
 
+    public String getMake() {
+        return make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
+    }
 }

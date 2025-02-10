@@ -14,4 +14,11 @@ public class MountainBike extends Bicycle{
         suspension = newSuspenssion;
         System.out.println("Suspenssion adjusted:" + (suspension ? "Enabled" : "Disabled"));
     }
+
+    public void changeGear(int newGear, String gearType){
+        int gear = newGear;
+        String tireType = gearType;
+        System.out.println("Change gear:" + newGear + ", tire type: " + gearType);
+
+    }
 }

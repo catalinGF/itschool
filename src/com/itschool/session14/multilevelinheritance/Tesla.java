@@ -1,6 +1,6 @@
 package com.itschool.session14.multilevelinheritance;
 
-public class Tesla extends ElectricCar {
+public final class Tesla extends ElectricCar {
     private int autopilotVersion;
 
     public Tesla(String make, String model, int year, int batteryCapacity, int range, int autopilotVersion) {

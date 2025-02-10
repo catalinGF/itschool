@@ -1,8 +1,8 @@
 package com.itschool.session14.singleinheritance;
 
 public class Bicycle {
-    protected int speed;
-    protected int gear;
+    private int speed;
+    private int gear;
 
     public Bicycle(int speed, int gear) {
         this.speed = speed;
@@ -15,7 +15,7 @@ public class Bicycle {
     }
     public void speedUP(int increment){
         speed += increment;
-        System.out.println("Speed is incrised " + speed);
+        System.out.println("Speed is increased " + speed);
     }
 
     public void applyBrake(int decrement){
